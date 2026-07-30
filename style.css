@@ -1,0 +1,165 @@
+/*-White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+*/
+/* .young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+ 
+ body {
+  font-size: 16px;
+  line-height: 1.5;
+ }
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.bg-main {
+  background-image: linear-gradient(to bottom, hsl(30, 54%, 90%));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.card {
+  width: 700px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.menu-card {
+  padding: 30px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1 {
+     font-family: "Young Serif", serif;
+     font-weight: 400;
+     font-style: normal;
+     padding-top: 30px;
+}
+.desciption {
+     font-size: 16px;
+     padding-top: 20px;
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+.cooking-time {
+     background-color: hsl(330, 100%, 98%);
+     margin-top: 35px;
+     padding: 30px 50px;
+     border-radius: 10px;
+}
+ul li,
+ol li {
+     font-size: 16px;
+     padding-top: 20px;
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+h3 {
+     font-family: "Outfit", sans-serif;
+     font-weight: 600;
+     color: hsl(332, 51%, 32%);
+     transform: translateX(-20px);
+}
+
+.gredient,
+.instruction {
+     margin-top: 45px;
+}
+.gredient::after {
+     content: "";
+     display: block;
+     width: 100%;
+     height: 0.5px;
+     background-color: gray;
+     margin-top: 40px;
+}
+h2 {
+     font-family: "Young Serif", serif;
+     font-weight: 600;
+     font-size: 35px;
+     color: hsl(14, 45%, 36%);
+}
+ul,ol {
+     padding-left: 20px;
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+
+td {
+     border: 2px solid gray;
+}
+
+.nutrition-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #555;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 24px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.nutrition-table {
+     max-width: 500px;
+}
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 15px;
+}
+
+.nutrition-row:last-child {
+  border-bottom: none;
+}
+
+.value {
+  color:hsl(14, 45%, 36%);
+  text-align: right;
+  font-weight: bold;
+  width: 50%;
+}
+
+
+.bold {
+  font-weight: bold;
+}
