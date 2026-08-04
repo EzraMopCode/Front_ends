@@ -1,0 +1,92 @@
+:root {
+     --active-btn:hsl(75, 94%, 57%);
+     --default-color: hsl(0, 0%, 100%);
+     --body-color-light: hsl(0, 0%, 20%);
+     --body-color-medium: hsl(0, 0%, 12%);
+     --body-color-dark: hsl(0, 0%, 8%);
+     --font: "body-font";
+}
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+@font-face {
+     font-family: "body-font";
+     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+     font-family: var(--font);
+     background-color: var(--body-color-dark);
+}
+
+.box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+}
+
+.profile-card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 5.6rem;
+     padding: 50px 35px;
+     border-radius: 15px;
+     background-color: var(--body-color-medium);
+}
+
+.profile-card img{
+     width: 5.2rem;
+     border-radius: 50%;
+}
+
+h2 {
+     color: var(--default-color);
+     text-align: center;
+     font-family: var(--font);
+     font-weight: 500;
+     padding-top: 25px;
+}
+
+.location {
+     color: var(--active-btn);
+     text-align: center;
+     font-size: 13px;
+     padding-top: 7px;
+     font-weight: 600;
+}
+h4 {
+     color: var(--default-color);
+     font-size: 14px;
+     font-weight: 400;
+     padding-top: 25px;
+}
+
+.social-links {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.social-links a {
+     color:var(--default-color);
+     font-size: 12px;
+     text-decoration: none;
+     text-align: center;
+     width: 300px;
+     background-color: var(--body-color-light);
+     padding: 16px 25px;
+     font-weight: 600;
+     border-radius: 7px;
+     margin-top: 25px;
+     transition: all 0.7s;
+}
+
+.social-links a:hover{
+     color: var(--body-color-dark);
+     background-color: var(--active-btn);
+}
