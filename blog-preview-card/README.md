@@ -28,7 +28,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/EzraMopCode/Front_ends/tree/main/blog-preview-card](https://github.com/EzraMopCode/Front_ends/tree/main/blog-preview-card)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
